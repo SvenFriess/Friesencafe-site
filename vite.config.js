@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// ⚠️ exakt Repo-Name beachten (Großbuchstaben zählen)
 export default defineConfig({
+  base: '/Friesencafe-site/',
   plugins: [react()],
 })
